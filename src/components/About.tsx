@@ -33,19 +33,27 @@ export const About: React.FC = () => {
                             </div>
                             <div className="profile-row">
                                 <div className="profile-label">代表取締役</div>
-                                <div className="profile-value">北川 忠之</div>
+                                <div className="profile-value">永島浩之</div>
+                            </div>
+                            <div className="profile-row">
+                                <div className="profile-label">設立</div>
+                                <div className="profile-value">2019年3月1日</div>
                             </div>
                             <div className="profile-row">
                                 <div className="profile-label">所在地</div>
-                                <div className="profile-value">〒657-0842 兵庫県神戸市灘区大石北町4-7</div>
+                                <div className="profile-value">神戸市西区伊川谷町有瀬1524-3 陽光ビル１階南</div>
                             </div>
                             <div className="profile-row">
-                                <div className="profile-label">電話番号</div>
-                                <div className="profile-value">078-806-8712</div>
+                                <div className="profile-label">TEL / FAX</div>
+                                <div className="profile-value">078-806-8712 / 078-806-8713</div>
+                            </div>
+                            <div className="profile-row">
+                                <div className="profile-label">MAIL</div>
+                                <div className="profile-value">k.recks.plus@gmail.com</div>
                             </div>
                             <div className="profile-row">
                                 <div className="profile-label">事業内容</div>
-                                <div className="profile-value">総合解体業、産業廃棄物収集運搬</div>
+                                <div className="profile-value">解体工事業</div>
                             </div>
                         </div>
                     </div>

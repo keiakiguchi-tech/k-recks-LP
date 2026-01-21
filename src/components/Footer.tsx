@@ -23,11 +23,11 @@ export const Footer: React.FC = () => {
                             </div>
                             <div className="footer-contact-item">
                                 <MapPin size={18} />
-                                <span>兵庫県神戸市灘区大石北町4-7</span>
+                                <span>神戸市西区伊川谷町有瀬1524-3 陽光ビル１階南</span>
                             </div>
                             <div className="footer-contact-item">
                                 <Mail size={18} />
-                                <span>info@k-recks.com</span>
+                                <span>k.recks.plus@gmail.com</span>
                             </div>
                         </div>
                     </div>
