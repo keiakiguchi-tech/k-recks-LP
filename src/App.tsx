@@ -1,44 +1,23 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { QuotePage } from './pages/QuotePage';
-import { ConfirmPage } from './pages/ConfirmPage';
-import { AdminPage } from './pages/AdminPage';
-import { AdminDetailPage } from './pages/AdminDetailPage';
-import { LineQuotePage } from './pages/LineQuotePage';
-import { ThankYouPage } from './pages/ThankYouPage';
-import { LoginPage } from './pages/LoginPage';
 
-import { ProtectedRoute } from './components/ProtectedRoute';
-import './index.css';
-
-import { HelmetProvider } from 'react-helmet-async';
-import { ScrollToTop } from './components/ScrollToTop';
-import { NotFoundPage } from './pages/NotFoundPage';
+import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+import { Features } from './components/Features';
+import { About } from './components/About';
+import { CTASection } from './components/CTASection';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <HelmetProvider>
-      <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<QuotePage />} />
-          <Route path="/confirm" element={<ConfirmPage />} />
-          <Route path="/admin" element={<LoginPage />} />
-          <Route path="/admin/dashboard" element={
-            <ProtectedRoute>
-              <AdminPage />
-            </ProtectedRoute>
-          } />
-          <Route path="/admin/dashboard/:id" element={
-            <ProtectedRoute>
-              <AdminDetailPage />
-            </ProtectedRoute>
-          } />
-          <Route path="/line-quote" element={<LineQuotePage />} />
-          <Route path="/thank-you" element={<ThankYouPage />} />
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
-      </BrowserRouter>
-    </HelmetProvider>
+    <div className="App">
+      <Header />
+      <main>
+        <Hero />
+        <Features />
+        <About />
+        <CTASection />
+      </main>
+      <Footer />
+    </div>
   );
 }
 

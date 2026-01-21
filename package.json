@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "k-recks-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@line/liff": "^2.27.3",
-    "@supabase/supabase-js": "^2.90.1",
+    "lucide-react": "^0.562.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-helmet-async": "^2.0.5",
-    "react-router-dom": "^7.12.0"
+    "react-dom": "^19.2.0"
+  },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
