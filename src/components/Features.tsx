@@ -9,7 +9,8 @@ export const Features: React.FC = () => {
             title: "助成金サポート",
             description: (
                 <>
-                    解体工事に関わる面倒な助成金申請の手続きをフルサポート。<br />
+                    解体工事に関わる面倒な助成金申請の手続きを、<br />
+                    フルサポート。<br />
                     専門的な知識で、<br />
                     お客様の負担を最小限に抑えます。
                 </>
@@ -33,7 +34,8 @@ export const Features: React.FC = () => {
             description: (
                 <>
                     解体後の土地をどう活かすか。<br />
-                    駐車場経営、建て替えなど、不動産のプロが最適なプランをご提案します。
+                    駐車場経営、建て替えなど、不動産のプロが、<br />
+                    最適なプランをご提案します。
                 </>
             )
         }
@@ -45,7 +47,8 @@ export const Features: React.FC = () => {
                 <div className="section-header">
                     <h2 className="section-title">K-Recksの強み</h2>
                     <p className="section-subtitle">
-                        解体工事だけではない、お客様に寄り添った付加価値を提供します。
+                        解体工事だけではない、お客様に寄り添った、<br />
+                        付加価値を提供します。
                     </p>
                 </div>
 

@@ -8,7 +8,8 @@ export const About: React.FC = () => {
                 <div className="section-header">
                     <h2 className="section-title">私たちについて</h2>
                     <p className="section-subtitle">
-                        神戸を拠点に、誠実な施工で地域の皆様に選ばれています。
+                        神戸を拠点に、誠実な施工で地域の皆様に、<br />
+                        選ばれています。
                     </p>
                 </div>
 
