@@ -5,21 +5,28 @@
 
 .about-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    /* PCでは横並び */
     gap: 60px;
-    align-items: center;
-    text-align: center;
-    max-width: 900px;
+    align-items: flex-start;
+    /* 上揃え */
+    text-align: left;
+    /* テキスト左揃え */
+    max-width: 1100px;
+    /* 幅を広げる */
     margin: 0 auto;
 }
 
 .about-text {
-    width: 100%;
+    flex: 1;
+    /* 余ったスペースを埋める */
 }
 
 .about-image {
-    width: 100%;
-    max-width: 800px;
+    flex: 1;
+    /* 余ったスペースを埋める */
+    max-width: 500px;
+    /* 画像の最大幅調整 */
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -40,6 +47,8 @@
     line-height: 2;
     color: var(--color-text-light);
     font-size: 1.05rem;
+    text-align: justify;
+    /* 両端揃えできれいに見せる */
 }
 
 .about-description-paragraph:last-child {
@@ -57,6 +66,8 @@
     margin-bottom: 16px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     padding-bottom: 16px;
+    gap: 24px;
+    /* ラベルと値の間に隙間を追加 */
 }
 
 .profile-row:last-child {
@@ -78,13 +89,31 @@
 
 @media (max-width: 900px) {
     .about-content {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        /* スマホ・タブレットでは縦並び */
+        align-items: center;
+        text-align: left;
+        /* スマホでも読みやすく左揃え推奨 */
         gap: 40px;
+    }
+
+    .about-image {
+        max-width: 100%;
+        width: 100%;
     }
 }
 
 @media (max-width: 768px) {
-    .about-description {
+    .about-description-paragraph {
         font-size: 0.95rem;
+    }
+
+    .profile-row {
+        gap: 16px;
+    }
+
+    .profile-label {
+        width: 100px;
+        /* スマホでは少し狭く */
     }
 }
