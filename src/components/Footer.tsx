@@ -12,9 +12,10 @@ export const Footer: React.FC = () => {
                     {/* Company Info */}
                     <div className="footer-column">
                         <h3>K-Recks</h3>
-                        <p className="footer-description">
-                            安心・安全・丁寧な解体工事を。<br />
-                            お客様の新しいスタートをサポートします。
+                        <p className="footer-description manual-break">
+                            <span className="footer-description-compact">安心・安全・丁寧な解体工事を。</span><br />
+                            お客様の新しいスタートを、<br />
+                            サポートします。
                         </p>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                             <div className="footer-contact-item">
@@ -46,8 +47,10 @@ export const Footer: React.FC = () => {
                     {/* CTA Area */}
                     <div className="footer-column">
                         <h4>まずはお見積もりから</h4>
-                        <p className="footer-description">
-                            LINEで簡単2分！概算見積もりがすぐにわかります。
+                        <p className="footer-description manual-break">
+                            LINEで簡単2分！<br />
+                            概算見積もりが、<br />
+                            すぐにわかります。
                         </p>
                         <a href="https://k-recks-omega.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <Button variant="primary" style={{ backgroundColor: 'white', color: 'var(--color-primary)', border: 'none' }} fullWidth>

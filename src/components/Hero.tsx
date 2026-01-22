@@ -11,13 +11,14 @@ export const Hero: React.FC = () => {
             <div className="hero-shape hero-shape-2" />
 
             <div className="container hero-content">
-                <h1 className="hero-title">
+                <h1 className="hero-title manual-break">
                     家屋解体・内装解体は<br />
                     <span>K-Recks</span>へご相談下さい。
                 </h1>
-                <p className="hero-description">
-                    安心・安全な施工と、助成金申請から解体後の土地活用まで。<br />
-                    お客様の「これから」をトータルでサポートします。
+                <p className="hero-description manual-break">
+                    安心・安全な施工と、助成金申請から<br />
+                    解体後の土地活用まで。お客様の「これから」を<br />
+                    トータルでサポートします。
                 </p>
 
                 <div className="hero-buttons">

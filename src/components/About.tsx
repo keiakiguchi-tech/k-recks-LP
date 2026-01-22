@@ -15,11 +15,12 @@ export const About: React.FC = () => {
                 <div className="about-content">
                     <div className="about-text">
                         <div className="about-description-wrapper">
-                            <p className="about-description-paragraph">
+                            <p className="about-description-paragraph manual-break">
                                 株式会社K-Recksは、兵庫県神戸市を中心に家屋解体・内装解体を行っている専門業者です。
                             </p>
                             <p className="about-description-paragraph">
-                                「解体」は単に建物を壊すだけではありません。そこに住まわれていた方の想い出を大切にしながら、次の新しい一歩へのバトンを繋ぐ重要な役割だと考えています。
+                                「解体」は単に建物を壊すだけではありません。そこに住まわれていた方の想い出を、<br />
+                                大切にしながら、次の新しい一歩へのバトンを繋ぐ重要な役割だと考えています。
                             </p>
                             <p className="about-description-paragraph">
                                 近隣の方々への配慮はもちろん、安全第一・法令順守を徹底し、スムーズな工事をお約束します。
