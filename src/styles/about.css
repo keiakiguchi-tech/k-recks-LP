@@ -1,6 +1,7 @@
 /* About Section */
 .about-section {
     background-color: white;
+    padding-top: 140px;
 }
 
 .about-content {
@@ -30,6 +31,7 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 16px 0;
 }
 
 .about-image img {
@@ -122,5 +124,9 @@
 
     .profile-row {
         row-gap: 8px;
+    }
+
+    .about-section {
+        padding-top: 100px;
     }
 }

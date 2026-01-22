@@ -1,6 +1,7 @@
 /* Features Section */
 .features-section {
     background-color: var(--color-bg-light);
+    padding-top: 140px;
 }
 
 .section-header {
@@ -23,6 +24,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    padding-bottom: 24px;
 }
 
 .feature-card {
@@ -62,14 +64,26 @@
 
 /* CTA Section */
 .cta-section {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.cta-hero {
     background: linear-gradient(rgba(0, 56, 130, 0.9), rgba(0, 56, 130, 0.9));
     color: white;
     text-align: center;
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding: 80px 0;
+    margin: 24px 0;
+}
+
+.cta-hero-content {
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cta-title {
@@ -80,10 +94,15 @@
 
 .cta-description {
     font-size: 1.25rem;
-    margin-bottom: 48px;
     opacity: 0.9;
     max-width: 700px;
-    margin: 0 auto 48px;
+    margin: 0 auto;
+}
+
+.cta-action {
+    background-color: white;
+    text-align: center;
+    padding: 32px 0;
 }
 
 @media (max-width: 992px) {
@@ -100,6 +119,11 @@
     .features-grid {
         grid-template-columns: 1fr;
         gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .features-section {
+        padding-top: 100px;
     }
 
     .cta-title {
@@ -113,5 +137,18 @@
     .cta-section {
         margin-top: 24px;
         margin-bottom: 24px;
+    }
+
+    .cta-hero {
+        padding: 64px 0;
+        margin: 20px 0;
+    }
+
+    .cta-hero-content {
+        min-height: 260px;
+    }
+
+    .cta-action {
+        padding: 24px 0;
     }
 }
