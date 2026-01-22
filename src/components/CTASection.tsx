@@ -15,7 +15,8 @@ export const CTASection: React.FC = () => {
                 </h2>
                 <p className="cta-description manual-break">
                     LINEまたはWebフォームから、<br />
-                    24時間365日お見積もり依頼を受け付けております。<br />
+                    24時間365日お見積もり依頼を、<br />
+                    受け付けております。<br />
                     匿名での概算見積もりも可能です。
                 </p>
                 <a href="https://k-recks-omega.vercel.app/" target="_blank" rel="noopener noreferrer">
