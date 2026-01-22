@@ -43,7 +43,10 @@ export const About: React.FC = () => {
                             </div>
                             <div className="profile-row">
                                 <div className="profile-label">所在地</div>
-                                <div className="profile-value">神戸市西区伊川谷町有瀬1524-3 陽光ビル１階南</div>
+                                <div className="profile-value">
+                                    神戸市西区伊川谷町有瀬1524-3<br />
+                                    陽光ビル１階南
+                                </div>
                             </div>
                             <div className="profile-row">
                                 <div className="profile-label">TEL / FAX</div>
