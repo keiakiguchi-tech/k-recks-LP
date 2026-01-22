@@ -63,7 +63,9 @@ button {
 }
 
 .manual-break {
-  white-space: nowrap;
+  white-space: normal;
+  line-break: strict;
+  overflow-wrap: anywhere;
 }
 
 .container {
