@@ -9,11 +9,13 @@ export const CTASection: React.FC = () => {
             backgroundImage: 'url("https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")',
         }}>
             <div className="container">
-                <h2 className="cta-title">
-                    解体工事の不安、まずは解消しませんか？
+                <h2 className="cta-title manual-break">
+                    解体工事の不安、<br />
+                    まずは解消しませんか？
                 </h2>
-                <p className="cta-description">
-                    LINEまたはWebフォームから、24時間365日お見積もり依頼を受け付けております。<br />
+                <p className="cta-description manual-break">
+                    LINEまたはWebフォームから、<br />
+                    24時間365日お見積もり依頼を受け付けております。<br />
                     匿名での概算見積もりも可能です。
                 </p>
                 <a href="https://k-recks-omega.vercel.app/" target="_blank" rel="noopener noreferrer">

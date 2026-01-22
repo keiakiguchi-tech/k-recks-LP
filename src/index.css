@@ -39,6 +39,22 @@ a {
   transition: all 0.3s ease;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+img + img,
+img + a,
+a + img {
+  margin-top: 24px;
+}
+
+img + a {
+  display: inline-block;
+}
+
 button {
   cursor: pointer;
   border: none;
@@ -46,9 +62,25 @@ button {
   font-family: inherit;
 }
 
+.manual-break {
+  white-space: nowrap;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .manual-break {
+    font-size: 0.92em;
+  }
+}
+
+@media (max-width: 480px) {
+  .manual-break {
+    font-size: 0.85em;
+  }
 }

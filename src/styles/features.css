@@ -68,6 +68,8 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .cta-title {
@@ -106,5 +108,10 @@
 
     .cta-description {
         font-size: 1rem;
+    }
+
+    .cta-section {
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
 }
